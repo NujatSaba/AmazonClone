@@ -129,31 +129,33 @@ body {
   align-items: end;
 }
 
-
 /* Panel Bar */
 
 .nav-panel {
   height: 40px;
   background-color: #203746;
   color: white;
+  font-size: 0.90rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 
-.nav-panel-All{
+.nav-panel-All {
   font-weight: 550;
   padding-left: 10px;
 }
 
 .panel-items {
-  width: 80%;
+  width: 85%;
 }
 
-.panel-items span{
-  
-  margin-left: 10px;
-
+.panel-items span {
+  margin-left: 15px;
 }
+
+.panel-deals{
+  font-weight: 550;
+}
+
 
