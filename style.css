@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(0, 49, 33);
+  background-color: rgb(154, 250, 218);
 }
 
 /* Navigation bar*/
@@ -127,4 +127,28 @@ body {
 .nav-cart {
   display: flex;
   align-items: end;
+}
+
+
+/* Panel Bar */
+
+.nav-panel {
+  height: 40px;
+  background-color: #203746;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+  
+}
+
+.nav-panel-All{
+  font-weight: 550;
+  padding-left: 10px;
+}
+
+.panel-items{
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
 }
