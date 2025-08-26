@@ -19,7 +19,6 @@ body {
   justify-content: space-evenly;
 }
 
-
 .nav-upper-text {
   font-size: 0.85rem;
   color: rgb(209, 209, 209);
@@ -37,7 +36,7 @@ body {
 
 .border:hover {
   border: 2px solid white;
-  height: 57px;
+  /* height: 57px; */
 }
 
 /* Navigation bar: Box 1 */
@@ -54,7 +53,6 @@ body {
   background-size: cover;
   background-position: center center;
 }
-
 
 /* navigation bar: Box 2 */
 
@@ -111,23 +109,19 @@ body {
   color: #0f1111;
 }
 
-
 .search-border {
   border: 2px solid transparent;
 }
-
 
 .search-border:hover {
   border: 2.5px solid rgb(251, 111, 30);
   border-radius: 6px;
 }
 
-
-
 /* navigation bar: Box 6 */
 
 .nav-cart-icon {
-   font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .nav-cart {
