@@ -195,8 +195,8 @@ a {
   /* margin-bottom: 20px; */
 }
 
-.hero-section-msg p {
-  font-size: 0.9rem;
+.msg p {
+  font-size: 0.85rem;
 }
 
 /* Boxes */
@@ -321,7 +321,71 @@ a {
 }
 
 /* footer */
+
+.footer-panel-one{
+  height: 50px;
+  background-color: #2f556e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-panel2{
+  /* background-color: #ffba66; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+
+}
+.footer-text{
+  /* background-color: aquamarine; */
+  /* width: 500px; */
+  color: #dddddd;
+  
+  margin-top: 50px;
+  
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.footer-text span{
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+
+}
+
+.footer-header{
+/* background-color: #ffba66; */
+display: block;
+font-size: 16px;
+}
+
 footer {
-  height: 500px;
-  background-color: #203746;
+  height: 400px;
+  background-color: #232f3e;
+}
+
+.footer-panel3{
+  height: 100px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.1px solid rgba(159, 159, 159, 0.56);
+}
+
+.footer-panel4{
+
+  height: 50px;
+  background-color: #1a222d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: #b6b6b6;
+
 }
